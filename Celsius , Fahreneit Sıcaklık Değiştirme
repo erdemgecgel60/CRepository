@@ -37,7 +37,7 @@ int main()
 
         scanf("%f",&celsius);
 
-        total = (celsius + 32) / 1.8;
+        total = (celsius - 32) / 1.8;
 
         printf("Total : %f",total);
 
